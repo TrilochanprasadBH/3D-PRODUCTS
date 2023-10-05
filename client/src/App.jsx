@@ -17,3 +17,5 @@ function App() {
 }
 
 export default App
+
+// rendering partially in voltia , only that function re renders 

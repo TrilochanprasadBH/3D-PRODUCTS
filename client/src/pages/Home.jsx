@@ -1,4 +1,7 @@
-import React from "react"
+import React from "react" 
+
+// valtio is a small library for React global state
+
 
 const Home = () => {
   return (
