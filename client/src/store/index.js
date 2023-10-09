@@ -2,7 +2,7 @@ import {proxy} from "valtio"
 
 const state= proxy({
     intro:true,
-    color:"lightblue",
+    color:"purple",
     isLogoTexture:true,
     isFullTexture:false,
     logoDecal:"./threejs.png",
