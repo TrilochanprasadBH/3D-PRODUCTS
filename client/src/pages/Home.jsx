@@ -1,4 +1,4 @@
-import React from "react" 
+// import React from "react" 
 import {motion, AnimatePresence} from "framer-motion";
 import {useSnapshot} from "valtio";
 import state from "../store/index";
@@ -15,7 +15,7 @@ const Home = () => {
   const snap = useSnapshot(state)
   //  console.log(snap);
   //  console.log(state);
-  
+
   return (
 
     <AnimatePresence>
