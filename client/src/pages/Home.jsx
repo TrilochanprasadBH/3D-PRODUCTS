@@ -13,8 +13,9 @@ import {
 
 const Home = () => {
   const snap = useSnapshot(state)
-  console.log(snap.intro);
-  console.log(state.intro);
+  //  console.log(snap);
+  //  console.log(state);
+  
   return (
 
     <AnimatePresence>
@@ -44,7 +45,7 @@ const Home = () => {
               <Button 
               type="filled"
               title="Customise It"
-              handleClick={()=>snap.intro=false}
+              handleClick={()=>state.intro=false}
               customStyles="w-fit px-4 py-2.5 font-bold text-sm"
               />
             </motion.div>
